@@ -1,0 +1,21 @@
+{
+    "name": "testcafe_practice",
+    "version": "1.0.0",
+    "description": "For testcafe learning and practice",
+    "main": "index.js",
+    "scripts": {
+        "test": "testcafe chrome ./e2e/src/*/*.e2e.spec.ts"
+    },
+    "keywords": [
+        "TestCafe"
+    ],
+    "author": "Stan Ran Zhu",
+    "license": "ISC",
+    "dependencies": {
+        "@ffmpeg-installer/ffmpeg": "^1.0.17",
+        "testcafe": "^1.0.1",
+        "testcafe-reporter-html": "^1.4.4",
+        "testcafe-reporter-teamcity": "^1.0.10",
+        "typescript": "^3.3.3333"
+    }
+}
