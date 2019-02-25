@@ -5,7 +5,7 @@ const fs = require('fs')
 /** 
  * Paramters Initialization 
  */
-let case_list = ['./HelloTestCafe/failedTest.e2e.spec.ts', './HelloTestCafe/passedTest.e2e.spec.ts'];
+let case_list = ['./Demo_Training/demo.e2e.spec.ts'];
 let browser_list = ['chrome:headless', /*'firefox'*/ ];
 
 
